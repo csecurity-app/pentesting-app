@@ -1,0 +1,406 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #C02942; /* A deep, cherry red */
+    font-family: Arial, sans-serif; /* Clean and readable font */
+    font-size: 2.5rem; /* Adjust size as needed */
+    font-weight: bold; /* Add emphasis */
+    margin: 1.5rem 0; /* Add some space around the heading */
+    letter-spacing: 0.1rem; /* Slightly wider spacing for readability */
+  }
+  
+  
+  nav {
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section.hero {
+    text-align: center;
+  }
+  
+  section.services {
+    margin-top: 50px;
+  }
+  
+  footer {
+    background-color: #dfd9d9;
+    text-align: center;
+    padding: 10px;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px; /* Add some space around the container (optional) */
+  }
+  
+  .image-container img {
+    margin: 20px;  /* Adjust the value for desired spacing between images */
+  }
+  .subscribe-button {
+    font-weight: bold;
+    background-color :rgb(8, 8, 8);
+    color:rgb(255, 255, 255);
+    border:rgb(0, 0, 0);
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 30px;
+    transition: opacity 1s;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0.5, 0.7); /* Shadow effect */
+  }
+  .subscribe-button:hover {
+    background-color: rgb(46, 42, 42);
+    color:rgb(255, 255, 255);
+   }
+   .subscribe-button:active {
+    background-color: rgb(255, 255, 255);
+    opacity: 1.2;
+   }
+   .image-container2 {
+    display: flex;
+    justify-content: center;
+    margin: 80px; /* Add some space around the container (optional) */
+  }
+  
+  .image-container2 img {
+    margin: 50px;  /* Adjust the value for desired spacing between images */
+  }
+  .image4 {
+    border: 5px solid #031758;  /* Adjust these values as desired */
+  }
+  .image1 {
+    border: 5px solid #000000;  /* Adjust these values as desired */
+  }
+
+  .image2 {
+    border: 5px solid #000000;  /* Adjust these values as desired */
+  }
+  .imagelast {
+    border: 5px solid #0e0541;  /* Adjust these values as desired */
+  }
+  .ptext {
+    background-color: #dfd9d9;
+    text-align: center;
+    padding: 10px;
+    font-size: medium;
+    color: #0e0541;
+  }
+  .heading3 {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-size: medium;
+    color: #c00000;
+  }
+  .heading8 {
+    background-color: #c00000;
+    text-align: center;
+    padding: 20px;
+    font-size: large;
+    color: #ffffff;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 700px;
+    margin-top: 400px;
+    
+  }
+  .heading3 {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-size: medium;
+    color: #050404;
+  }
+  .para1 {
+    text-align: center;  /* Align text to center */
+    font-family: cursive, Arial, sans-serif;  /* Try a cursive font first, then fallbacks */
+    font-size: 16px;  /* Adjust for a comfortable reading size */
+    color: #666;  /* A warm gray for a friendly feel */
+    margin: 20px auto;  /* Add some margin for spacing */
+    padding: 15px;  /* Add padding for readability */
+    border: none;  /* Remove the border for a cleaner look */
+    border-radius: 3px;  /* Subtle rounded corners for a touch of softness */
+  }
+  .para1 {
+    margin-top: 500x;
+    margin-left: 400px;
+    text-indent: 500px;
+    white-space: 200px ;
+    text-align: center;
+  }
+  .contact {
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .contact h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .contact p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .social-icons a:hover {
+    color: #666;
+  }
+  
+  /* Font Awesome icons (you'll need to add Font Awesome to your project) */
+  .fab {
+    font-family: FontAwesome;
+  }
+  
+  
+.fblogo {
+   margin-top: 50px;
+   margin-left: 70px;
+   margin-right: 50px;
+
+}
+.ytlogo {
+  margin-top: 50px;
+  margin-right: 50px;
+
+}
+.mylogo {
+  margin-left: 690px;
+  align-content: center;
+}
+
+
+.image1:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+  /* Hover effect styles */
+  opacity: 0.7;  /* Makes the image slightly transparent on hover */
+  cursor: pointer;  /* Changes cursor to a hand to indicate clickability */
+}
+
+.image1:active {
+  /* Click effect styles (optional) */
+  transform: scale(1.1);  /* Makes the image slightly bigger on click */
+  transition: transform 0.2s ease-in-out;  /* Smooths the click effect transition */
+}
+.image2:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+  /* Hover effect styles */
+  opacity: 0.7;  /* Makes the image slightly transparent on hover */
+  cursor: pointer;  /* Changes cursor to a hand to indicate clickability */
+}
+
+.image2:active {
+  /* Click effect styles (optional) */
+  transform: scale(1.1);  /* Makes the image slightly bigger on click */
+  transition: transform 0.2s ease-in-out;  /* Smooths the click effect transition */
+}
+.imagegoat:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+  /* Hover effect styles */
+  opacity: 0.7;  /* Makes the image slightly transparent on hover */
+  cursor: pointer;  /* Changes cursor to a hand to indicate clickability */
+}
+
+.imagegoat:active {
+  /* Click effect styles (optional) */
+  transform: scale(1.1);  /* Makes the image slightly bigger on click */
+  transition: transform 0.2s ease-in-out;  /* Smooths the click effect transition */
+}
+.image4:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+  /* Hover effect styles */
+  opacity: 0.7;  /* Makes the image slightly transparent on hover */
+  cursor: pointer;  /* Changes cursor to a hand to indicate clickability */
+}
+
+.image4:active {
+  /* Click effect styles (optional) */
+  transform: scale(1.1);  /* Makes the image slightly bigger on click */
+  transition: transform 0.2s ease-in-out;  /* Smooths the click effect transition */
+}
+
+.imagelast:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+  /* Hover effect styles */
+  opacity: 0.7;  /* Makes the image slightly transparent on hover */
+  cursor: pointer;  /* Changes cursor to a hand to indicate clickability */
+}
+
+.imagelast:active {
+  /* Click effect styles (optional) */
+  transform: scale(1.1);  /* Makes the image slightly bigger on click */
+  transition: transform 0.2s ease-in-out;  /* Smooths the click effect transition */
+}
+.image1{
+  box-shadow: 5px 5px 10px rgba(41, 38, 38, 0.4);
+}
+.image2{
+  box-shadow: 5px 5px 10px rgba(252, 252, 4, 0.5);
+}
+.imagelast{
+  box-shadow: 5px 5px 10px rgba(41, 38, 38, 0.4);
+}
+.imagegoat{
+  box-shadow: 5px 5px 10px rgba(255, 0, 0, 0.4);
+}
+.image4{
+  box-shadow: 5px 5px 10px rgba(2, 19, 173, 0.5);
+}
+.image1:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.image4 {
+  margin-left: 400px;
+  margin-right: 100px;
+}
+.join-button1 {
+    margin-left: 350px;
+}
+.join-button2 {
+    margin-left: 350px;
+}
+.join-button3 {
+    margin-left: 350px;
+}
+.button1, .button2 {
+    /* Add button styles here */
+    margin-right: 10px;  /* Add space between buttons */
+  }
+  .button1 {
+    margin-left: 800px;
+    background-color: #df0303; /* Green background color */
+    border: none; /* Remove default border */
+    color: white; /* White text color */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as inline-block element */
+    font-size: 16px; /* Set font size */
+    margin: 4px 2px; /* Add a little space around the buttons */
+    cursor: pointer; /* Add the pointer on hover effect */
+  }
+ .button2 {
+    background-color: #e60606; /* Green background color */
+    border: none; /* Remove default border */
+    color: white; /* White text color */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as inline-block element */
+    font-size: 16px; /* Set font size */
+    margin: 4px 2px; /* Add a little space around the buttons */
+    cursor: pointer; /* Add the pointer on hover effect */
+  }
+  .button3 {
+   
+    background-color: #d30b0b; /* Green background color */
+    border: none; /* Remove default border */
+    color: white; /* White text color */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as inline-block element */
+    font-size: 16px; /* Set font size */
+    margin: 4px 2px; /* Add a little space around the buttons */
+    cursor: pointer; /* Add the pointer on hover effect */
+  }
+  .button1, .button2, .button3 {
+    display: inline-block;
+    width: 200px; /* Set button width */
+    margin: 20px 80px; /* Add spacing between buttons */
+    text-align: center; /* Center the text inside the button */
+  }
+  
+.button1 { /* Special style for the first button */
+    margin-left: 220px; /* Add margin to the left of the first button */
+  }
+  
+  .button3 { /* Special style for the first button */
+    margin-right: 150px; /* Add margin to the left of the first button */
+  }
+  .button4 {
+   
+    background-color: #d30b0b; /* Green background color */
+    border: none; /* Remove default border */
+    color: white; /* White text color */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as inline-block element */
+    font-size: 16px; /* Set font size */
+    margin: 4px 2px; /* Add a little space around the buttons */
+    cursor: pointer; /* Add the pointer on hover effect */
+  }
+  .button5 {
+   
+    background-color: #d30b0b; /* Green background color */
+    border: none; /* Remove default border */
+    color: white; /* White text color */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as inline-block element */
+    font-size: 16px; /* Set font size */
+    margin: 4px 2px; /* Add a little space around the buttons */
+    cursor: pointer; /* Add the pointer on hover effect */
+  }
+  .button4, .button5 {
+    display: inline-block;
+    width: 200px; /* Set button width */
+    margin: 20px 100px; /* Add spacing between buttons */
+    text-align: center; /* Center the text inside the button */
+  }
+  .button4 { /* Special style for the first button */
+    margin-top: 30px;
+    margin-left: 450px; /* Add margin to the left of the first button */
+  }
+  
